@@ -13,7 +13,7 @@ services:
       APP_PORT: 3000
   
   web:
-    image: ${DOCKER_IMAGE:-robosats-notifier:latest}
+    image: ${DOCKER_IMAGE:-orangepanther21/robosats-notifier:latest}
     restart: unless-stopped
     volumes:
       - ${APP_DATA_DIR}/data:/data
