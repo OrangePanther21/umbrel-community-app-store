@@ -21,7 +21,7 @@ services:
       BOT_ENABLED: "true"
       ROBOSATS_API_URL: "http://robosats_web_1:12596"
       ROBOSATS_COORDINATORS: "temple,moon,lake"
-      ROBOSATS_ONION_URL: ""
+      ROBOSATS_ONION_URL: "http://robosatsy56bwqn56qyadmcxkx767hnabg4mihxlmgyt6if5gnuxvzad.onion"
       CONFIG_FILE: "/data/config.json"
       WEB_PORT: "3000"
       LOG_LEVEL: "info"
