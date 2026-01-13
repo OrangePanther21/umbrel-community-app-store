@@ -16,7 +16,7 @@ services:
     environment:
       WHATSAPP_GROUP_NAME: ""
       CHECK_INTERVAL_MINUTES: "5"
-      TARGET_CURRENCIES: "USD,EUR"
+      TARGET_CURRENCIES: ""
       LANGUAGE: "EN"
       BOT_ENABLED: "true"
       ROBOSATS_API_URL: "http://robosats_web_1:12596"
