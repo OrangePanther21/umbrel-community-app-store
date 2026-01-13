@@ -12,14 +12,14 @@ description: >-
   
   Requirements: RoboSats app must be installed. Messaging account for notifications (WhatsApp currently supported).
   
-  Configuration: Access the web UI on port 3000. Scan QR code to authenticate. Configure your target currencies and notification settings. Adjust check interval and other settings.
+  Configuration: Access the web UI after installation. Scan QR code to authenticate. Configure your target currencies and notification settings. Adjust check interval and other settings.
 developer: Community Contributor
 website: https://github.com/OrangePanther21/robosats-notifier
 dependencies:
   - robosats
 repo: https://github.com/OrangePanther21/robosats-notifier
 support: https://github.com/OrangePanther21/robosats-notifier/issues
-port: 3000
+port: 3847
 gallery:
   - https://raw.githubusercontent.com/OrangePanther21/robosats-notifier/main/docs/screenshots/screenshot-1.jpg
   - https://raw.githubusercontent.com/OrangePanther21/robosats-notifier/main/docs/screenshots/screenshot-2.jpg
