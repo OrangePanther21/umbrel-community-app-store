@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: robosats-tools-robosats-notifier_web_1
-      APP_PORT: 3000
+      APP_PORT: 12597
   
   web:
     image: orangepanther21/robosats-notifier:latest
@@ -23,5 +23,5 @@ services:
       ROBOSATS_COORDINATORS: "temple,moon,lake"
       ROBOSATS_ONION_URL: "http://robosatsy56bwqn56qyadmcxkx767hnabg4mihxlmgyt6if5gnuxvzad.onion"
       CONFIG_FILE: "/data/config.json"
-      WEB_PORT: "3000"
+      WEB_PORT: "12597"
       LOG_LEVEL: "info"
