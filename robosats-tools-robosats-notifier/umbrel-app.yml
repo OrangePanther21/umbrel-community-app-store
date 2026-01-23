@@ -2,7 +2,7 @@ manifestVersion: 1
 id: robosats-tools-robosats-notifier
 category: finance
 name: RoboSats Notifier
-version: "1.2.0"
+version: "1.2.1"
 tagline: Get instant notifications for new RoboSats offers
 icon: https://raw.githubusercontent.com/OrangePanther21/umbrel-community-app-store/master/robosats-tools-robosats-notifier/icon.svg
 description: >-
@@ -24,14 +24,11 @@ gallery:
   - https://raw.githubusercontent.com/OrangePanther21/robosats-notifier/main/docs/screenshots/screenshot-1.jpg
   - https://raw.githubusercontent.com/OrangePanther21/robosats-notifier/main/docs/screenshots/screenshot-2.jpg
 releaseNotes: >-
-  Version 1.2.0 - Improved Reliability
+  Version 1.2.1 - Bug Fix Release
   
-  Improvements:
-  - Refactored coordinator requests with Promise.allSettled for better error handling
-  - Enhanced logging of coordinator responses and errors
-  - Offer tracking now includes coordinator information
-  - Improved logic for deleting inactive offers based on coordinator reachability
-  - Better insights into offer retrieval from multiple coordinators
+  Bug Fixes:
+  - Fixed bug where expired offers were not having their WhatsApp messages deleted
+  - Removed redundant cleanup logic that was interfering with proper message deletion
 path: ""
 defaultUsername: ""
 defaultPassword: ""

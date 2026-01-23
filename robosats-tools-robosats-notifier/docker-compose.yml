@@ -10,7 +10,7 @@ services:
     image: orangepanther21/robosats-notifier:latest
     restart: on-failure
     stop_grace_period: 1m
-    command: sh -c "rm -f /app/.wwebjs_auth/SingletonLock /app/.wwebjs_auth/SingletonSocket /app/.wwebjs_auth/SingletonCookie 2>/dev/null || true && exec node /app/index.js"
+    command: sh -c "rm -f /app/.wwebjs_auth/*/SingletonLock /app/.wwebjs_auth/*/SingletonSocket /app/.wwebjs_auth/*/SingletonCookie 2>/dev/null || true && exec node src/index.js"
     volumes:
       - ${APP_DATA_DIR}/data:/data
       - ${APP_DATA_DIR}/auth:/app/.wwebjs_auth
