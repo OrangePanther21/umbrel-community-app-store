@@ -23,6 +23,7 @@ services:
       ROBOSATS_API_URL: "http://robosats_web_1:12596"
       ROBOSATS_COORDINATORS: "temple,moon,lake"
       ROBOSATS_ONION_URL: "http://robosatsy56bwqn56qyadmcxkx767hnabg4mihxlmgyt6if5gnuxvzad.onion"
+      ROBOSATS_CLEARNET_URL: ""
       CONFIG_FILE: "/data/config.json"
       WEB_PORT: "12597"
       LOG_LEVEL: "info"
